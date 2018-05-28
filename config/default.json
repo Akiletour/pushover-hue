@@ -1,0 +1,30 @@
+{
+    "pushover": {
+        "deviceId": "",
+        "userSecret": "",
+        "states": {
+            "success": {
+                "text": "OK",
+                "color": [0, 255, 0]
+            },
+            "warning": {
+                "text": "WARNING",
+                "color": [255, 255, 0]
+            },
+            "error": {
+                "text": "CRITICAL",
+                "color": [0, 0, 255]
+            },
+            "default": {
+                "color": [255, 255, 255]
+            }
+        }
+    },
+    "hue": {
+        "host": "",
+        "username": "",
+        "animation": {
+            "delay": 400
+        }
+    }
+}
